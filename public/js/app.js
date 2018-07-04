@@ -48091,7 +48091,7 @@ exports = module.exports = __webpack_require__(45)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -48102,6 +48102,13 @@ exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -48173,12 +48180,22 @@ var staticRenderFns = [
             _c("a", { attrs: { href: "#" } }, [_vm._v("Ashlar Global")])
           ]),
           _vm._v(" "),
-          _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("About Us")])]),
+          _c("hr"),
+          _vm._v(" "),
+          _c("li", [_c("a", { attrs: { href: "# " } }, [_vm._v("About Us")])]),
+          _vm._v(" "),
+          _c("hr"),
           _vm._v(" "),
           _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Our Team")])]),
           _vm._v(" "),
-          _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Contact Us")])])
+          _c("hr"),
+          _vm._v(" "),
+          _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Contact Us")])]),
+          _vm._v(" "),
+          _c("hr")
         ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-sm-1" }),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-7" }, [
           _c("h2", [_vm._v("\n            Right Side Content\n        ")]),
@@ -48289,7 +48306,7 @@ exports = module.exports = __webpack_require__(45)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -48300,6 +48317,7 @@ exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
 //
 //
 //

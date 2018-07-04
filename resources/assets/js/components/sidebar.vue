@@ -4,18 +4,25 @@
         <div class="col-md-3">
             <h2>Side-bar</h2>
             <hr>
-            <li>
-            <a href="#">Ashlar Global</a>
+            <li >
+            <a href="#" >Ashlar Global</a>
             </li>
+            <hr>
             <li>
-                <a href="#">About Us</a>
+                <a href="# ">About Us</a>
             </li>
+            <hr>
             <li>
-                <a href="#">Our Team</a>
+                <a href="#" >Our Team</a>
             </li>
+            <hr>
             <li>
-                <a href="#">Contact Us</a>
+                <a href="#" >Contact Us</a>
             </li>
+            <hr>
+
+        </div>
+        <div class="col-sm-1">
 
         </div>
         <div class="col-md-7">
