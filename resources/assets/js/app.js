@@ -4,10 +4,18 @@
  * includes Vue and other libraries. It is a great starting point when
  * building robust, powerful web applications using Vue and Laravel.
  */
+import VueRouter from 'vue-router';
+import footer from './components/footer';
+import sidebar from './components/sidebar';
+import header_2 from './components/header_2';
+import header from './components/header';
+import whole_page from './components/whole_page';
+import aboutus from './components/aboutus';
 
 require('./bootstrap');
 
 window.Vue = require('vue');
+
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -20,10 +28,23 @@ Vue.component('header-component', require('./components/header'));
 Vue.component('footer-component', require('./components/footer'));
 Vue.component('header_2-component', require('./components/header_2'));
 Vue.component('sidebar-component', require('./components/sidebar'));
+Vue.component('whole_page-component', require('./components/whole_page'));
+Vue.component('aboutus-component', require('./components/aboutus'));
+Vue.use(VueRouter);
 
+const routes =[
+    {path:'/aboutus', component: aboutus},
+    {path:'/', component: whole_page},
+];
+
+const router= new VueRouter({
+    routes: routes,
+    mode:'history',
+});
 
 const app = new Vue({
-    el: '#app'
+    el: '#app',
+    router,
 });
 
 var app1 = new Vue({
@@ -48,7 +69,10 @@ var app1 = new Vue({
         {
             this.message= this.message.split('').reverse().join('')
         }
-    }
+    },
+
+
+
 
 
 
